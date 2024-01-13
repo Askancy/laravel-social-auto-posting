@@ -19,14 +19,14 @@
     "require": {
         "facebook/graph-sdk": "^5.6.1"
     },
-    "minimum-stability": "stable",
-    "prefer-stable": true,
     "extra": {
         "laravel": {
             "providers": [
                 "Askancy\\Larasap\\LarasapServiceProvider"
             ]
         }
-    }
+    },
+      "minimum-stability": "dev",
+  "prefer-stable": true
 
 }
